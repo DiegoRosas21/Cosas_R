@@ -1,0 +1,15 @@
+#Para correr Wallace EcoMod
+
+#Previo a la instalacion, instalar markdowm Y leaflet
+install.packages("markdown")
+install.packages("leaflet")
+# instalación del paquete 
+## Por si llegara a funcionar normalmente: 
+install.packages('wallace') 
+#Si no es posible instalarlo normalmente, esta es una alternativa confiable
+install.packages("devtools")
+devtools::install_github("wallaceEcoMod/wallace")
+# cargar el paquete 
+library(wallace) 
+# correr la plataforma 
+run_wallace() 
